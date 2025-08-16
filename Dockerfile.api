@@ -1,0 +1,100 @@
+# Slidev API Server 专用 Dockerfile
+# 优化的单一用途构建
+
+FROM node:18-alpine AS builder
+
+WORKDIR /app
+
+# 安装构建依赖
+RUN apk add --no-cache \
+    git \
+    python3 \
+    make \
+    g++ \
+    libc6-compat
+
+# 安装 pnpm
+RUN npm install -g pnpm@10.13.1
+
+# 复制 package 配置文件
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY packages/api-server/package.json ./packages/api-server/
+COPY packages/slidev/package.json ./packages/slidev/
+COPY packages/client/package.json ./packages/client/
+COPY packages/parser/package.json ./packages/parser/
+COPY packages/types/package.json ./packages/types/
+
+# 复制 patches 目录（pnpm需要）
+COPY patches ./patches
+
+# 安装依赖
+RUN pnpm install --no-frozen-lockfile
+
+# 复制源代码（排除node_modules）
+COPY packages/api-server/src ./packages/api-server/src
+COPY packages/api-server/tsconfig.json ./packages/api-server/
+COPY packages/api-server/tsdown.config.ts ./packages/api-server/
+COPY packages/slidev/bin ./packages/slidev/bin
+COPY packages/slidev/node ./packages/slidev/node
+COPY packages/slidev/tsconfig.json ./packages/slidev/
+COPY packages/slidev/tsdown.config.ts ./packages/slidev/
+COPY packages/client ./packages/client
+COPY packages/parser ./packages/parser
+COPY packages/types ./packages/types
+COPY tsconfig.json ./
+
+# 构建 API Server
+RUN pnpm --filter @slidev/api-server build
+
+# ================================
+# 运行阶段
+# ================================
+FROM node:18-alpine AS runtime
+
+WORKDIR /app
+
+# 安装运行时依赖
+RUN apk add --no-cache \
+    git \
+    wget \
+    curl
+
+# 安装 pnpm
+RUN npm install -g pnpm@10.13.1
+
+# 创建非 root 用户
+RUN addgroup -g 1001 -S slidev && \
+    adduser -S slidev -u 1001
+
+# 从构建阶段复制文件
+COPY --from=builder /app/package.json ./
+COPY --from=builder /app/pnpm-lock.yaml ./
+COPY --from=builder /app/pnpm-workspace.yaml ./
+COPY --from=builder /app/patches ./patches
+COPY --from=builder /app/packages ./packages
+
+# 只安装生产依赖（跳过prepare脚本）
+RUN pnpm install --prod --no-frozen-lockfile --ignore-scripts
+
+# 创建必要目录并设置权限
+RUN mkdir -p /app/temp /app/logs && \
+    chown -R slidev:slidev /app
+
+# 切换到非 root 用户
+USER slidev
+
+# 设置环境变量
+ENV NODE_ENV=production
+ENV API_HOST=0.0.0.0
+ENV API_PORT=3000
+ENV TEMP_DIR=/app/temp
+
+# 暴露端口
+EXPOSE 3000
+
+# 健康检查
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD wget --no-verbose --tries=1 --spider http://localhost:3000/api/health || exit 1
+
+# 启动命令
+CMD ["node", "packages/api-server/dist/index.js"]

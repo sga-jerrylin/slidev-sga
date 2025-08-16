@@ -16,6 +16,8 @@
     "demo:vue-runner": "pnpm -C demo/vue-runner run dev",
     "demo:dev": "pnpm -C demo/starter run dev",
     "vscode:dev": "pnpm -C packages/vscode run dev",
+    "api:dev": "pnpm -C packages/api-server run dev",
+    "api:start": "pnpm -C packages/api-server run start",
     "play": "pnpm demo:dev",
     "dev": "pnpm -r --filter=./packages/** --parallel run dev",
     "lint": "eslint . --cache",

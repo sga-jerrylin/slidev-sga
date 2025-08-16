@@ -9,6 +9,7 @@ import { transformMonaco } from './monaco'
 import { transformPlantUml } from './plant-uml'
 import { transformSlotSugar } from './slot-sugar'
 import { transformSnippet } from './snippet'
+import { transformVueDataUI } from './vue-data-ui'
 
 export async function getMarkdownTransformers(options: ResolvedSlidevOptions): Promise<(false | MarkdownTransformer)[]> {
   const extras = await setupTransformers(options.roots)
@@ -22,6 +23,7 @@ export async function getMarkdownTransformers(options: ResolvedSlidevOptions): P
 
     transformMermaid,
     transformPlantUml,
+    transformVueDataUI,
     options.data.features.monaco && transformMonaco,
 
     ...extras.postCodeblock,

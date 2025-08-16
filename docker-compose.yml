@@ -1,0 +1,116 @@
+version: '3.8'
+
+services:
+  # Slidev API Server - 用于动态生成演示文稿
+  slidev-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: slidev-api-server
+    ports:
+      - "8000:3000"  # 改为8000避免冲突
+      - "8001-8100:3001-3100"  # 演示文稿端口范围
+    environment:
+      - NODE_ENV=production
+      - API_HOST=0.0.0.0
+      - API_PORT=3000
+      - BASE_URL=http://localhost
+      - MAX_CONCURRENT=10
+      - DEFAULT_TTL=3600000
+      - PORT_RANGE_START=3001
+      - PORT_RANGE_END=3100
+      - TEMP_DIR=/app/temp
+      - LOG_LEVEL=info
+      - ENABLE_CORS=true
+      - ENABLE_COMPRESSION=true
+      - RATE_LIMIT_WINDOW=900000
+      - RATE_LIMIT_MAX=100
+    volumes:
+      - slidev_temp:/app/temp
+      - slidev_logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - slidev-network
+
+  # Slidev CLI - 用于运行单个演示文稿
+  slidev-presentation:
+    build:
+      context: .
+      dockerfile: Dockerfile.slidev
+    container_name: slidev-presentation
+    ports:
+      - "8030:3000"  # 改为8030避免冲突
+    environment:
+      - NODE_ENV=production
+      - HOST=0.0.0.0
+      - PORT=3000
+    volumes:
+      - ./slides:/slides:ro  # 挂载演示文稿目录
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - slidev-network
+    profiles:
+      - presentation  # 使用 profile 来选择性启动
+
+  # 开发环境 - 用于开发和调试
+  slidev-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: slidev-dev
+    ports:
+      - "8080:3000"  # 改为8080避免冲突
+      - "8001-8100:3001-3100"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - slidev_temp:/app/temp
+      - slidev_logs:/app/logs
+    restart: unless-stopped
+    networks:
+      - slidev-network
+    profiles:
+      - development  # 使用 profile 来选择性启动
+
+  # Nginx 反向代理 (可选)
+  nginx:
+    image: nginx:alpine
+    container_name: slidev-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - slidev-api
+    restart: unless-stopped
+    networks:
+      - slidev-network
+    profiles:
+      - nginx  # 使用 profile 来选择性启动
+
+volumes:
+  slidev_temp:
+    driver: local
+  slidev_logs:
+    driver: local
+
+networks:
+  slidev-network:
+    driver: bridge

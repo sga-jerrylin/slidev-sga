@@ -116,6 +116,7 @@
     "vite-plugin-vue-server-ref": "catalog:prod",
     "vitefu": "catalog:dev",
     "vue": "catalog:frontend",
+    "vue-data-ui": "catalog:frontend",
     "yaml": "catalog:prod",
     "yargs": "catalog:prod"
   },

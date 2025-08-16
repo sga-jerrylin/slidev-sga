@@ -1,0 +1,46 @@
+# 多阶段构建：先构建依赖，再创建运行镜像
+FROM node:18-alpine AS builder
+
+# 设置工作目录
+WORKDIR /app
+
+# 安装构建依赖
+RUN apk add --no-cache git python3 make g++
+
+# 复制 package.json 并安装依赖
+COPY docker/template/package.json ./
+COPY docker/template/.npmrc ./
+
+# 安装依赖（使用缓存优化）
+RUN npm install --only=production --silent --no-audit --no-fund
+
+# 运行阶段
+FROM node:18-alpine AS runner
+
+# 设置工作目录
+WORKDIR /app
+
+# 只安装运行时需要的系统依赖
+RUN apk add --no-cache git
+
+# 从构建阶段复制 node_modules
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package.json ./package.json
+
+# 创建必要的目录
+RUN mkdir -p components public styles
+
+# 复制启动脚本
+COPY docker/scripts/start-slidev.sh /usr/local/bin/start-slidev
+RUN chmod +x /usr/local/bin/start-slidev
+
+# 设置环境变量
+ENV NODE_ENV=production
+ENV HOST=0.0.0.0
+ENV PORT=3000
+
+# 暴露端口
+EXPOSE 3000
+
+# 启动命令
+CMD ["start-slidev"]

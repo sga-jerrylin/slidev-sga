@@ -1,0 +1,3028 @@
+2025-08-16 18:10:56 [info]: PortManager initialized
+{
+  "startPort": 3001,
+  "endPort": 3100
+}
+2025-08-16 18:10:56 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 18:10:56 [info]: Slidev API Server started
+{
+  "port": 3000,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3001,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 18:11:48 [info]: Incoming request
+{
+  "requestId": "w7lgjl",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:12:23 [info]: Request completed
+{
+  "requestId": "w7lgjl",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "34810ms"
+}
+2025-08-16 18:12:23 [info]: Incoming request
+{
+  "requestId": "54tyu",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:12:23 [info]: Creating new presentation
+{
+  "requestId": "54tyu",
+  "title": "API Test Presentation",
+  "theme": "default",
+  "contentLength": 364
+}
+2025-08-16 18:13:01 [info]: Creating project
+{
+  "id": "slidev-LzKgZFCCCqkh",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-LzKgZFCCCqkh"
+}
+2025-08-16 18:13:01 [info]: Project created successfully
+{
+  "id": "slidev-LzKgZFCCCqkh",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-LzKgZFCCCqkh"
+}
+2025-08-16 18:13:01 [info]: Port allocated
+{
+  "port": 3001,
+  "totalAllocated": 1
+}
+2025-08-16 18:13:01 [info]: Starting Slidev server
+{
+  "id": "slidev-LzKgZFCCCqkh",
+  "port": 3001,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-LzKgZFCCCqkh"
+}
+2025-08-16 18:14:30 [info]: PortManager initialized
+{
+  "startPort": 3001,
+  "endPort": 3100
+}
+2025-08-16 18:14:30 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 18:14:30 [info]: Slidev API Server started
+{
+  "port": 3000,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3001,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 18:14:52 [info]: Incoming request
+{
+  "requestId": "c6fmh",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:15:02 [info]: Request completed
+{
+  "requestId": "c6fmh",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "9362ms"
+}
+2025-08-16 18:15:02 [info]: Incoming request
+{
+  "requestId": "373yi",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:15:02 [info]: Creating new presentation
+{
+  "requestId": "373yi",
+  "title": "API Test Presentation",
+  "theme": "default",
+  "contentLength": 364
+}
+2025-08-16 18:15:11 [info]: Creating project
+{
+  "id": "slidev-qwYqTdlI2A7e",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-qwYqTdlI2A7e"
+}
+2025-08-16 18:15:11 [info]: Installing project dependencies
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-qwYqTdlI2A7e"
+}
+2025-08-16 18:16:11 [info]: Dependencies installed successfully
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-qwYqTdlI2A7e"
+}
+2025-08-16 18:16:11 [info]: Project created successfully
+{
+  "id": "slidev-qwYqTdlI2A7e",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-qwYqTdlI2A7e"
+}
+2025-08-16 18:16:11 [info]: Port allocated
+{
+  "port": 3001,
+  "totalAllocated": 1
+}
+2025-08-16 18:16:11 [info]: Starting Slidev server
+{
+  "id": "slidev-qwYqTdlI2A7e",
+  "port": 3001,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-qwYqTdlI2A7e"
+}
+2025-08-16 18:16:17 [info]: Presentation created successfully
+{
+  "id": "slidev-qwYqTdlI2A7e",
+  "port": 3001,
+  "expiresAt": "2025-08-16T10:46:11.222Z",
+  "totalInstances": 1
+}
+2025-08-16 18:16:17 [info]: Presentation created successfully
+{
+  "requestId": "373yi",
+  "presentationId": "slidev-qwYqTdlI2A7e",
+  "url": "http://localhost:3001"
+}
+2025-08-16 18:16:17 [info]: Request completed
+{
+  "requestId": "373yi",
+  "method": "POST",
+  "url": "/presentations",
+  "statusCode": 201,
+  "duration": "75085ms"
+}
+2025-08-16 18:16:17 [info]: Incoming request
+{
+  "requestId": "kgywz7",
+  "method": "GET",
+  "url": "/api/presentations",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:16:17 [info]: Listed presentations
+{
+  "requestId": "kgywz7",
+  "total": 1,
+  "active": 1
+}
+2025-08-16 18:16:17 [info]: Request completed
+{
+  "requestId": "kgywz7",
+  "method": "GET",
+  "url": "/presentations",
+  "statusCode": 200,
+  "duration": "4ms"
+}
+2025-08-16 18:16:17 [info]: Incoming request
+{
+  "requestId": "efg2in",
+  "method": "GET",
+  "url": "/api/presentations/slidev-qwYqTdlI2A7e",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:16:17 [info]: Retrieved presentation details
+{
+  "requestId": "efg2in",
+  "presentationId": "slidev-qwYqTdlI2A7e",
+  "status": "ready"
+}
+2025-08-16 18:16:17 [info]: Request completed
+{
+  "requestId": "efg2in",
+  "method": "GET",
+  "url": "/presentations/slidev-qwYqTdlI2A7e",
+  "statusCode": 200,
+  "duration": "4ms"
+}
+2025-08-16 18:19:30 [info]: Cleaning up expired presentations
+{
+  "expiredCount": 0,
+  "totalInstances": 1
+}
+2025-08-16 18:20:49 [info]: PortManager initialized
+{
+  "startPort": 3001,
+  "endPort": 3100
+}
+2025-08-16 18:20:49 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 18:20:49 [info]: Slidev API Server started
+{
+  "port": 3000,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3001,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 18:21:13 [info]: Incoming request
+{
+  "requestId": "48l4mj",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:21:23 [info]: Request completed
+{
+  "requestId": "48l4mj",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "9945ms"
+}
+2025-08-16 18:21:23 [info]: Incoming request
+{
+  "requestId": "zdflje",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:21:23 [info]: Creating new presentation
+{
+  "requestId": "zdflje",
+  "title": "API Test Presentation",
+  "theme": "default",
+  "contentLength": 4382
+}
+2025-08-16 18:21:33 [info]: Creating project
+{
+  "id": "slidev-MV_NZtunuXXO",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-MV_NZtunuXXO"
+}
+2025-08-16 18:21:33 [info]: Installing project dependencies
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-MV_NZtunuXXO"
+}
+2025-08-16 18:22:33 [error]: Failed to install dependencies
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-MV_NZtunuXXO",
+  "error": {
+    "code": null,
+    "killed": true,
+    "signal": "SIGTERM",
+    "cmd": "npm install --silent",
+    "stdout": "",
+    "stderr": ""
+  }
+}
+2025-08-16 18:22:33 [error]: Failed to create project
+{
+  "id": "slidev-MV_NZtunuXXO",
+  "error": {}
+}
+2025-08-16 18:22:33 [error]: Failed to cleanup project after error
+{
+  "id": "slidev-MV_NZtunuXXO",
+  "cleanupError": {
+    "errno": -4082,
+    "code": "EBUSY",
+    "syscall": "rmdir",
+    "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-MV_NZtunuXXO"
+  }
+}
+2025-08-16 18:22:33 [error]: Failed to create presentation
+{
+  "error": {}
+}
+2025-08-16 18:22:33 [error]: Request error
+Error: Failed to install project dependencies
+    at ProjectGenerator.createPackageJson (file:///E:/slidev-sga/packages/api-server/dist/index.js:598:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async ProjectGenerator.createProject (file:///E:/slidev-sga/packages/api-server/dist/index.js:530:4)
+    at async PresentationManager.createPresentation (file:///E:/slidev-sga/packages/api-server/dist/index.js:708:32)
+    at async file:///E:/slidev-sga/packages/api-server/dist/index.js:1096:19
+{
+  "requestId": "zdflje",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "Failed to install project dependencies",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:22:33 [info]: Request completed
+{
+  "requestId": "zdflje",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "70111ms"
+}
+2025-08-16 18:23:49 [info]: PortManager initialized
+{
+  "startPort": 3001,
+  "endPort": 3100
+}
+2025-08-16 18:23:49 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 18:23:49 [info]: Slidev API Server started
+{
+  "port": 3000,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3001,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 18:25:50 [info]: PortManager initialized
+{
+  "startPort": 3001,
+  "endPort": 3100
+}
+2025-08-16 18:25:50 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 18:25:50 [info]: Creating template project
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 18:25:50 [info]: Slidev API Server started
+{
+  "port": 3000,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3001,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 18:25:59 [error]: Failed to create template project
+{
+  "error": {
+    "code": 1,
+    "killed": false,
+    "signal": null,
+    "cmd": "npm install --silent --no-audit --no-fund",
+    "stdout": "",
+    "stderr": ""
+  }
+}
+2025-08-16 18:26:34 [info]: Incoming request
+{
+  "requestId": "rmpbsj",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:26:45 [info]: Request completed
+{
+  "requestId": "rmpbsj",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10773ms"
+}
+2025-08-16 18:26:45 [info]: Incoming request
+{
+  "requestId": "3eazqv",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:26:45 [info]: Creating new presentation
+{
+  "requestId": "3eazqv",
+  "title": "API Test Presentation",
+  "theme": "default",
+  "contentLength": 4382
+}
+2025-08-16 18:26:55 [info]: Creating project
+{
+  "id": "slidev-XW2bYhegmrEo",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-XW2bYhegmrEo"
+}
+2025-08-16 18:26:55 [info]: Copying from template
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-XW2bYhegmrEo"
+}
+2025-08-16 18:26:55 [info]: Project created successfully
+{
+  "id": "slidev-XW2bYhegmrEo",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-XW2bYhegmrEo"
+}
+2025-08-16 18:26:55 [info]: Port allocated
+{
+  "port": 3001,
+  "totalAllocated": 1
+}
+2025-08-16 18:26:55 [info]: Starting Slidev server
+{
+  "id": "slidev-XW2bYhegmrEo",
+  "port": 3001,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-XW2bYhegmrEo"
+}
+2025-08-16 18:27:17 [error]: Failed to create presentation
+{
+  "error": {}
+}
+2025-08-16 18:27:17 [error]: Request error
+Error: Failed to resolve package "@slidev/theme-default"
+    at findPkgRoot (file:///E:/slidev-sga/packages/api-server/node_modules/@slidev/cli/dist/resolver-BShaA6qw.js:38:31)
+    at async file:///E:/slidev-sga/packages/api-server/node_modules/@slidev/cli/dist/resolver-BShaA6qw.js:102:20
+    at async resolveOptions (file:///E:/slidev-sga/packages/api-server/node_modules/@slidev/cli/dist/shared-s9xIcfim.js:696:29)
+    at async PresentationManager.createPresentation (file:///E:/slidev-sga/packages/api-server/dist/index.js:754:26)
+    at async file:///E:/slidev-sga/packages/api-server/dist/index.js:1133:19
+{
+  "requestId": "3eazqv",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "Failed to resolve package \"@slidev/theme-default\"",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:27:17 [info]: Request completed
+{
+  "requestId": "3eazqv",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "31656ms"
+}
+2025-08-16 18:28:44 [info]: PortManager initialized
+{
+  "startPort": 3001,
+  "endPort": 3100
+}
+2025-08-16 18:28:44 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 18:28:44 [info]: Template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 18:28:44 [info]: Slidev API Server started
+{
+  "port": 3000,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3001,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 18:42:46 [info]: PortManager initialized
+{
+  "startPort": 3001,
+  "endPort": 3100
+}
+2025-08-16 18:42:46 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 18:42:46 [info]: Creating/updating template project
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 18:42:46 [info]: Slidev API Server started
+{
+  "port": 3000,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3001,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 18:42:46 [info]: Installing dependencies (attempt 1/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 18:42:56 [error]: Dependency installation failed (attempt 1/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template",
+  "attempt": 1,
+  "error": {
+    "code": 1,
+    "signal": null,
+    "killed": false,
+    "stdout": "",
+    "stderr": "npm error code ETARGET\nnpm error notarget No matching version found for @slidev/theme-default@52.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_logs\\2025-08-16T10_42_46_639Z-debug-0.log\n"
+  }
+}
+2025-08-16 18:42:58 [info]: Installing dependencies (attempt 2/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 18:43:07 [error]: Dependency installation failed (attempt 2/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template",
+  "attempt": 2,
+  "error": {
+    "code": 1,
+    "signal": null,
+    "killed": false,
+    "stdout": "",
+    "stderr": "npm error code ETARGET\nnpm error notarget No matching version found for @slidev/theme-default@52.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_logs\\2025-08-16T10_42_58_441Z-debug-0.log\n"
+  }
+}
+2025-08-16 18:43:11 [info]: Installing dependencies (attempt 3/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 18:43:18 [error]: Dependency installation failed (attempt 3/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template",
+  "attempt": 3,
+  "error": {
+    "code": 1,
+    "signal": null,
+    "killed": false,
+    "stdout": "",
+    "stderr": "npm error code ETARGET\nnpm error notarget No matching version found for @slidev/theme-default@52.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_logs\\2025-08-16T10_43_11_925Z-debug-0.log\n"
+  }
+}
+2025-08-16 18:43:18 [error]: Failed to create template project
+{
+  "error": {}
+}
+2025-08-16 18:43:56 [info]: Incoming request
+{
+  "requestId": "ysf8m",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:44:06 [info]: Request completed
+{
+  "requestId": "ysf8m",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10285ms"
+}
+2025-08-16 18:44:06 [info]: Incoming request
+{
+  "requestId": "wt0ymm",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:44:06 [info]: Creating new presentation
+{
+  "requestId": "wt0ymm",
+  "title": "API Test Presentation",
+  "theme": "default",
+  "contentLength": 4382
+}
+2025-08-16 18:44:16 [info]: Creating presentation
+{
+  "title": "API Test Presentation",
+  "theme": "default",
+  "contentLength": 4382
+}
+2025-08-16 18:44:16 [info]: Creating project without dependencies
+{
+  "id": "slidev-35SPaiL1ufhB",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-35SPaiL1ufhB"
+}
+2025-08-16 18:44:16 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-35SPaiL1ufhB",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-35SPaiL1ufhB"
+}
+2025-08-16 18:44:16 [info]: Port allocated
+{
+  "port": 3001,
+  "totalAllocated": 1
+}
+2025-08-16 18:44:16 [info]: Starting Slidev server
+{
+  "id": "slidev-35SPaiL1ufhB",
+  "port": 3001,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-35SPaiL1ufhB"
+}
+2025-08-16 18:45:53 [error]: Failed to create presentation
+{
+  "error": {}
+}
+2025-08-16 18:45:53 [error]: Request error
+Error: Failed to resolve package "@slidev/theme-default"
+    at findPkgRoot (file:///E:/slidev-sga/packages/api-server/node_modules/@slidev/cli/dist/resolver-BShaA6qw.js:38:31)
+    at async file:///E:/slidev-sga/packages/api-server/node_modules/@slidev/cli/dist/resolver-BShaA6qw.js:102:20
+    at async resolveOptions (file:///E:/slidev-sga/packages/api-server/node_modules/@slidev/cli/dist/shared-s9xIcfim.js:696:29)
+    at async PresentationManager.createPresentation (file:///E:/slidev-sga/packages/api-server/dist/index.js:905:26)
+    at async file:///E:/slidev-sga/packages/api-server/dist/index.js:1283:19
+{
+  "requestId": "wt0ymm",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "Failed to resolve package \"@slidev/theme-default\"",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 18:45:53 [info]: Request completed
+{
+  "requestId": "wt0ymm",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "106519ms"
+}
+2025-08-16 18:47:46 [info]: Cleaning up expired presentations
+{
+  "expiredCount": 0
+}
+2025-08-16 18:52:46 [info]: Cleaning up expired presentations
+{
+  "expiredCount": 0
+}
+2025-08-16 22:46:09 [info]: PortManager initialized
+{
+  "startPort": 3001,
+  "endPort": 3100
+}
+2025-08-16 22:46:09 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 22:46:09 [info]: Creating/updating template project
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 22:46:09 [info]: Slidev API Server started
+{
+  "port": 3000,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3001,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 22:46:09 [info]: Installing dependencies (attempt 1/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 22:46:19 [error]: Dependency installation failed (attempt 1/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template",
+  "attempt": 1,
+  "error": {
+    "code": 1,
+    "signal": null,
+    "killed": false,
+    "stdout": "",
+    "stderr": "npm error code ETARGET\nnpm error notarget No matching version found for @slidev/theme-default@52.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_logs\\2025-08-16T14_46_09_329Z-debug-0.log\n"
+  }
+}
+2025-08-16 22:46:21 [info]: Installing dependencies (attempt 2/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 22:46:33 [error]: Dependency installation failed (attempt 2/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template",
+  "attempt": 2,
+  "error": {
+    "code": 1,
+    "signal": null,
+    "killed": false,
+    "stdout": "",
+    "stderr": "npm error code ETARGET\nnpm error notarget No matching version found for @slidev/theme-default@52.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_logs\\2025-08-16T14_46_21_805Z-debug-0.log\n"
+  }
+}
+2025-08-16 22:46:45 [info]: PortManager initialized
+{
+  "startPort": 3001,
+  "endPort": 3100
+}
+2025-08-16 22:46:45 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 22:46:45 [info]: Creating/updating template project
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 22:46:45 [info]: Slidev API Server started
+{
+  "port": 3000,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3001,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 22:46:45 [info]: Installing dependencies (attempt 1/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 22:46:56 [error]: Dependency installation failed (attempt 1/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template",
+  "attempt": 1,
+  "error": {
+    "code": 1,
+    "signal": null,
+    "killed": false,
+    "stdout": "",
+    "stderr": "npm error code ETARGET\nnpm error notarget No matching version found for @slidev/theme-default@52.1.0.\nnpm error notarget In most cases you or one of your dependencies are requesting\nnpm error notarget a package version that doesn't exist.\nnpm error A complete log of this run can be found in: C:\\Users\\Administrator\\AppData\\Local\\npm-cache\\_logs\\2025-08-16T14_46_45_605Z-debug-0.log\n"
+  }
+}
+2025-08-16 23:46:40 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-16 23:46:40 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 23:46:40 [info]: Creating/updating template project
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 23:46:40 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 23:46:40 [info]: Installing dependencies (attempt 1/3)
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 23:47:01 [info]: Dependencies installed successfully
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template",
+  "attempt": 1,
+  "stdout": "\nadded 651 packages in 20s\n"
+}
+2025-08-16 23:47:01 [info]: Template verification successful
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 23:47:01 [info]: Template project created successfully
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 23:47:28 [info]: Incoming request
+{
+  "requestId": "71v39",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:47:39 [info]: Request completed
+{
+  "requestId": "71v39",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "11253ms"
+}
+2025-08-16 23:47:39 [info]: Incoming request
+{
+  "requestId": "g050s",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:47:39 [info]: Creating new presentation
+{
+  "requestId": "g050s",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:47:50 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:47:50 [info]: Creating project without dependencies
+{
+  "id": "slidev-L5Vnx3muSyL0",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-L5Vnx3muSyL0"
+}
+2025-08-16 23:47:50 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-L5Vnx3muSyL0",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-L5Vnx3muSyL0"
+}
+2025-08-16 23:47:50 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-16 23:47:50 [info]: Starting Slidev server
+{
+  "id": "slidev-L5Vnx3muSyL0",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-L5Vnx3muSyL0"
+}
+2025-08-16 23:47:50 [error]: Failed to create presentation
+{
+  "error": {
+    "errno": -4058,
+    "code": "ENOENT",
+    "syscall": "spawn npx",
+    "path": "npx",
+    "spawnargs": [
+      "slidev",
+      "--port",
+      "3002",
+      "--host",
+      "0.0.0.0",
+      "--theme",
+      "default"
+    ]
+  }
+}
+2025-08-16 23:47:50 [error]: Request error
+Error: spawn npx ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+{
+  "requestId": "g050s",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "spawn npx ENOENT",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:47:50 [info]: Request completed
+{
+  "requestId": "g050s",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "10852ms"
+}
+2025-08-16 23:49:03 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-16 23:49:03 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 23:49:03 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 23:49:03 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 23:49:48 [info]: Incoming request
+{
+  "requestId": "nyeom",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:49:59 [info]: Request completed
+{
+  "requestId": "nyeom",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "11137ms"
+}
+2025-08-16 23:49:59 [info]: Incoming request
+{
+  "requestId": "zexpb8",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:49:59 [info]: Creating new presentation
+{
+  "requestId": "zexpb8",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:50:10 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:50:10 [info]: Creating project without dependencies
+{
+  "id": "slidev-WPyzdOo-KC3N",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-WPyzdOo-KC3N"
+}
+2025-08-16 23:50:10 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-WPyzdOo-KC3N",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-WPyzdOo-KC3N"
+}
+2025-08-16 23:50:10 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-16 23:50:10 [info]: Starting Slidev server
+{
+  "id": "slidev-WPyzdOo-KC3N",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-WPyzdOo-KC3N"
+}
+2025-08-16 23:50:10 [error]: Failed to create presentation
+{
+  "error": {
+    "errno": -4071,
+    "code": "EINVAL",
+    "syscall": "spawn"
+  }
+}
+2025-08-16 23:50:10 [error]: Request error
+Error: spawn EINVAL
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at spawn (node:child_process:753:9)
+    at file:///E:/slidev-sga/packages/api-server/dist/index.js:1067:26
+    at new Promise (<anonymous>)
+    at PresentationManager.startSlidevProcess (file:///E:/slidev-sga/packages/api-server/dist/index.js:1065:10)
+    at PresentationManager.createPresentation (file:///E:/slidev-sga/packages/api-server/dist/index.js:904:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///E:/slidev-sga/packages/api-server/dist/index.js:1353:19
+{
+  "requestId": "zexpb8",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "spawn EINVAL",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:50:10 [info]: Request completed
+{
+  "requestId": "zexpb8",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "10231ms"
+}
+2025-08-16 23:51:25 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-16 23:51:25 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 23:51:25 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 23:51:25 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 23:51:54 [info]: Incoming request
+{
+  "requestId": "tduy07",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:52:05 [info]: Request completed
+{
+  "requestId": "tduy07",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10998ms"
+}
+2025-08-16 23:52:05 [info]: Incoming request
+{
+  "requestId": "t76m",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:52:05 [info]: Creating new presentation
+{
+  "requestId": "t76m",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:52:16 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:52:16 [info]: Creating project without dependencies
+{
+  "id": "slidev-33beCy1wDUlb",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-33beCy1wDUlb"
+}
+2025-08-16 23:52:16 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-33beCy1wDUlb",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-33beCy1wDUlb"
+}
+2025-08-16 23:52:16 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-16 23:52:16 [info]: Starting Slidev server
+{
+  "id": "slidev-33beCy1wDUlb",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-33beCy1wDUlb"
+}
+2025-08-16 23:52:16 [error]: Failed to create presentation
+{
+  "error": {
+    "errno": -4071,
+    "code": "EINVAL",
+    "syscall": "spawn"
+  }
+}
+2025-08-16 23:52:16 [error]: Request error
+Error: spawn EINVAL
+    at ChildProcess.spawn (node:internal/child_process:420:11)
+    at spawn (node:child_process:753:9)
+    at file:///E:/slidev-sga/packages/api-server/dist/index.js:1068:26
+    at new Promise (<anonymous>)
+    at PresentationManager.startSlidevProcess (file:///E:/slidev-sga/packages/api-server/dist/index.js:1065:10)
+    at PresentationManager.createPresentation (file:///E:/slidev-sga/packages/api-server/dist/index.js:904:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///E:/slidev-sga/packages/api-server/dist/index.js:1354:19
+{
+  "requestId": "t76m",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "spawn EINVAL",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:52:16 [info]: Request completed
+{
+  "requestId": "t76m",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "11239ms"
+}
+2025-08-16 23:53:26 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-16 23:53:26 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 23:53:26 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 23:53:26 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 23:53:57 [info]: Incoming request
+{
+  "requestId": "aftoqe",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:54:08 [info]: Request completed
+{
+  "requestId": "aftoqe",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10776ms"
+}
+2025-08-16 23:54:08 [info]: Incoming request
+{
+  "requestId": "a0emae",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:54:08 [info]: Creating new presentation
+{
+  "requestId": "a0emae",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:54:21 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:54:21 [info]: Creating project without dependencies
+{
+  "id": "slidev-mI1M_yIBYkFf",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-mI1M_yIBYkFf"
+}
+2025-08-16 23:54:21 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-mI1M_yIBYkFf",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-mI1M_yIBYkFf"
+}
+2025-08-16 23:54:21 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-16 23:54:21 [info]: Starting Slidev server
+{
+  "id": "slidev-mI1M_yIBYkFf",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-mI1M_yIBYkFf"
+}
+2025-08-16 23:54:23 [warn]: Slidev stderr
+{
+  "output": "无法识别的选项：host"
+}
+2025-08-16 23:54:23 [error]: Failed to create presentation
+{
+  "error": {}
+}
+2025-08-16 23:54:23 [error]: Request error
+Error: Slidev process exited with code 1
+    at ChildProcess.<anonymous> (file:///E:/slidev-sga/packages/api-server/dist/index.js:1114:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+{
+  "requestId": "a0emae",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "Slidev process exited with code 1",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:54:23 [info]: Request completed
+{
+  "requestId": "a0emae",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "15177ms"
+}
+2025-08-16 23:55:15 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-16 23:55:15 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 23:55:15 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 23:55:15 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 23:55:45 [info]: Incoming request
+{
+  "requestId": "dfmu92",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:55:56 [info]: Request completed
+{
+  "requestId": "dfmu92",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10623ms"
+}
+2025-08-16 23:55:56 [info]: Incoming request
+{
+  "requestId": "e324qi",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:55:56 [info]: Creating new presentation
+{
+  "requestId": "e324qi",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:56:06 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:56:06 [info]: Creating project without dependencies
+{
+  "id": "slidev-SpE2qqlzWlUN",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-SpE2qqlzWlUN"
+}
+2025-08-16 23:56:06 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-SpE2qqlzWlUN",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-SpE2qqlzWlUN"
+}
+2025-08-16 23:56:06 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-16 23:56:06 [info]: Starting Slidev server
+{
+  "id": "slidev-SpE2qqlzWlUN",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-SpE2qqlzWlUN"
+}
+2025-08-16 23:56:08 [info]: Slidev stdout
+{
+  "output": "\u001b[?25l"
+}
+2025-08-16 23:56:08 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[36m?\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m»\u001b[39m \u001b[90m(Y/n)\u001b[39m"
+}
+2025-08-16 23:56:36 [error]: Failed to create presentation
+{
+  "error": {}
+}
+2025-08-16 23:56:36 [error]: Request error
+Error: Slidev startup timeout
+    at Timeout._onTimeout (file:///E:/slidev-sga/packages/api-server/dist/index.js:1119:13)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+{
+  "requestId": "e324qi",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "Slidev startup timeout",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:56:36 [info]: Request completed
+{
+  "requestId": "e324qi",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "40411ms"
+}
+2025-08-16 23:57:35 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-16 23:57:35 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-16 23:57:35 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-16 23:57:35 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-16 23:58:07 [info]: Incoming request
+{
+  "requestId": "e42z26",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:58:17 [info]: Request completed
+{
+  "requestId": "e42z26",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10799ms"
+}
+2025-08-16 23:58:17 [info]: Incoming request
+{
+  "requestId": "lxb3nt",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:58:17 [info]: Creating new presentation
+{
+  "requestId": "lxb3nt",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:58:28 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-16 23:58:28 [info]: Creating project without dependencies
+{
+  "id": "slidev-2SAu8Dtl7PDh",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-2SAu8Dtl7PDh"
+}
+2025-08-16 23:58:28 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-2SAu8Dtl7PDh",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-2SAu8Dtl7PDh"
+}
+2025-08-16 23:58:28 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-16 23:58:28 [info]: Starting Slidev server
+{
+  "id": "slidev-2SAu8Dtl7PDh",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-2SAu8Dtl7PDh"
+}
+2025-08-16 23:58:30 [info]: Slidev stdout
+{
+  "output": "\u001b[?25l"
+}
+2025-08-16 23:58:30 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[36m?\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m»\u001b[39m \u001b[90m(Y/n)\u001b[39m"
+}
+2025-08-16 23:58:30 [info]: Auto-answering theme installation prompt with Y
+2025-08-16 23:58:30 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[2K\u001b[1G\u001b[32m√\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m...\u001b[39m yes"
+}
+2025-08-16 23:58:30 [info]: Auto-answering theme installation prompt with Y
+2025-08-16 23:58:30 [info]: Slidev stdout
+{
+  "output": "\u001b[?25h"
+}
+2025-08-16 23:58:58 [error]: Failed to create presentation
+{
+  "error": {}
+}
+2025-08-16 23:58:58 [error]: Request error
+Error: Slidev startup timeout
+    at Timeout._onTimeout (file:///E:/slidev-sga/packages/api-server/dist/index.js:1123:13)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+{
+  "requestId": "lxb3nt",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "Slidev startup timeout",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-16 23:58:58 [info]: Request completed
+{
+  "requestId": "lxb3nt",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "40447ms"
+}
+2025-08-16 23:59:01 [info]: Slidev stdout
+{
+  "output": "added 4 packages in 31s"
+}
+2025-08-16 23:59:01 [info]: Slidev stdout
+{
+  "output": "4 packages are looking for funding\n  run `npm fund` for details"
+}
+2025-08-17 00:00:09 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-17 00:00:09 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-17 00:00:09 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-17 00:00:09 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-17 00:00:39 [info]: Incoming request
+{
+  "requestId": "27tuek",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:00:50 [info]: Request completed
+{
+  "requestId": "27tuek",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10899ms"
+}
+2025-08-17 00:00:50 [info]: Incoming request
+{
+  "requestId": "tj8cig",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:00:50 [info]: Creating new presentation
+{
+  "requestId": "tj8cig",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:01:01 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:01:01 [info]: Creating project without dependencies
+{
+  "id": "slidev-WIpUrA2fjQ9R",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-WIpUrA2fjQ9R"
+}
+2025-08-17 00:01:01 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-WIpUrA2fjQ9R",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-WIpUrA2fjQ9R"
+}
+2025-08-17 00:01:01 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-17 00:01:01 [info]: Starting Slidev server
+{
+  "id": "slidev-WIpUrA2fjQ9R",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-WIpUrA2fjQ9R"
+}
+2025-08-17 00:01:04 [info]: Slidev stdout
+{
+  "output": "\u001b[?25l"
+}
+2025-08-17 00:01:04 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[36m?\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m»\u001b[39m \u001b[90m(Y/n)\u001b[39m"
+}
+2025-08-17 00:01:04 [info]: Auto-answering theme installation prompt with Y
+2025-08-17 00:01:04 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G"
+}
+2025-08-17 00:01:04 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[32m√\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m...\u001b[39m yes\n\u001b[?25h"
+}
+2025-08-17 00:01:04 [info]: Auto-answering theme installation prompt with Y
+2025-08-17 00:02:01 [error]: Failed to create presentation
+{
+  "error": {}
+}
+2025-08-17 00:02:01 [error]: Request error
+Error: Slidev startup timeout
+    at Timeout._onTimeout (file:///E:/slidev-sga/packages/api-server/dist/index.js:1123:13)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+{
+  "requestId": "tj8cig",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "Slidev startup timeout",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:02:01 [info]: Request completed
+{
+  "requestId": "tj8cig",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "70835ms"
+}
+2025-08-17 00:02:02 [info]: Slidev stdout
+{
+  "output": "added 4 packages in 58s"
+}
+2025-08-17 00:02:02 [info]: Slidev stdout
+{
+  "output": "4 packages are looking for funding\n  run `npm fund` for details"
+}
+2025-08-17 00:03:15 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-17 00:03:15 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-17 00:03:15 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-17 00:03:15 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-17 00:03:48 [info]: Incoming request
+{
+  "requestId": "pvf0k9",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:03:59 [info]: Request completed
+{
+  "requestId": "pvf0k9",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10955ms"
+}
+2025-08-17 00:03:59 [info]: Incoming request
+{
+  "requestId": "1bzmb",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:03:59 [info]: Creating new presentation
+{
+  "requestId": "1bzmb",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:04:09 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:04:09 [info]: Creating project without dependencies
+{
+  "id": "slidev-RwV-hXOVPq4H",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-RwV-hXOVPq4H"
+}
+2025-08-17 00:04:09 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-RwV-hXOVPq4H",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-RwV-hXOVPq4H"
+}
+2025-08-17 00:04:09 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-17 00:04:09 [info]: Starting Slidev server
+{
+  "id": "slidev-RwV-hXOVPq4H",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-RwV-hXOVPq4H"
+}
+2025-08-17 00:04:12 [info]: Slidev stdout
+{
+  "output": "\u001b[?25l"
+}
+2025-08-17 00:04:12 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[36m?\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m»\u001b[39m \u001b[90m(Y/n)\u001b[39m"
+}
+2025-08-17 00:04:12 [info]: Auto-answering theme installation prompt with Y
+2025-08-17 00:04:12 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[2K\u001b[1G\u001b[32m√\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m...\u001b[39m yes"
+}
+2025-08-17 00:04:12 [info]: Auto-answering theme installation prompt with Y
+2025-08-17 00:04:12 [info]: Slidev stdout
+{
+  "output": "\u001b[?25h"
+}
+2025-08-17 00:05:39 [error]: Failed to create presentation
+{
+  "error": {}
+}
+2025-08-17 00:05:39 [error]: Request error
+Error: Slidev startup timeout
+    at Timeout._onTimeout (file:///E:/slidev-sga/packages/api-server/dist/index.js:1129:13)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+{
+  "requestId": "1bzmb",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "Slidev startup timeout",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:05:39 [info]: Request completed
+{
+  "requestId": "1bzmb",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "100938ms"
+}
+2025-08-17 00:05:44 [info]: Slidev stdout
+{
+  "output": "added 4 packages in 2m"
+}
+2025-08-17 00:05:44 [info]: Slidev stdout
+{
+  "output": "4 packages are looking for funding\n  run `npm fund` for details"
+}
+2025-08-17 00:07:32 [info]: Incoming request
+{
+  "requestId": "bxtk0b",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:07:43 [info]: Request completed
+{
+  "requestId": "bxtk0b",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10743ms"
+}
+2025-08-17 00:07:43 [info]: Incoming request
+{
+  "requestId": "4ufpga",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:07:43 [info]: Creating new presentation
+{
+  "requestId": "4ufpga",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:07:54 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:07:54 [info]: Creating project without dependencies
+{
+  "id": "slidev-3O80kqk1LTvv",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-3O80kqk1LTvv"
+}
+2025-08-17 00:07:54 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-3O80kqk1LTvv",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-3O80kqk1LTvv"
+}
+2025-08-17 00:12:57 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-17 00:12:57 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-17 00:12:57 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-17 00:12:57 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-17 00:13:30 [info]: Incoming request
+{
+  "requestId": "ni7b3h",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:13:41 [info]: Request completed
+{
+  "requestId": "ni7b3h",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10539ms"
+}
+2025-08-17 00:13:41 [info]: Incoming request
+{
+  "requestId": "01w5cn",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:13:41 [info]: Creating new presentation
+{
+  "requestId": "01w5cn",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:13:52 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:13:52 [info]: Creating project without dependencies
+{
+  "id": "slidev-6LFYzjAmgc9I",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-6LFYzjAmgc9I"
+}
+2025-08-17 00:13:52 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-6LFYzjAmgc9I",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-6LFYzjAmgc9I"
+}
+2025-08-17 00:13:52 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-17 00:13:52 [info]: Starting Slidev server
+{
+  "id": "slidev-6LFYzjAmgc9I",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-6LFYzjAmgc9I"
+}
+2025-08-17 00:13:54 [info]: Slidev stdout
+{
+  "output": "\u001b[?25l"
+}
+2025-08-17 00:13:54 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[36m?\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m»\u001b[39m \u001b[90m(Y/n)\u001b[39m"
+}
+2025-08-17 00:13:54 [info]: Auto-answering theme installation prompt with Y
+2025-08-17 00:13:54 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[2K\u001b[1G\u001b[32m√\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m...\u001b[39m yes"
+}
+2025-08-17 00:13:54 [info]: Auto-answering theme installation prompt with Y
+2025-08-17 00:13:54 [info]: Slidev stdout
+{
+  "output": "\u001b[?25h"
+}
+2025-08-17 00:15:22 [error]: Failed to start Slidev server, cleaning up
+{
+  "id": "slidev-6LFYzjAmgc9I",
+  "port": 3002,
+  "error": {}
+}
+2025-08-17 00:15:22 [info]: Port released
+{
+  "port": 3002,
+  "totalAllocated": 0
+}
+2025-08-17 00:15:22 [error]: Failed to cleanup project
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-6LFYzjAmgc9I",
+  "error": {
+    "errno": -4082,
+    "code": "EBUSY",
+    "syscall": "rmdir",
+    "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-6LFYzjAmgc9I"
+  }
+}
+2025-08-17 00:15:22 [error]: Failed to create presentation
+{
+  "error": {
+    "errno": -4082,
+    "code": "EBUSY",
+    "syscall": "rmdir",
+    "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-6LFYzjAmgc9I"
+  }
+}
+2025-08-17 00:15:22 [error]: Request error
+Error: EBUSY: resource busy or locked, rmdir 'C:\Users\Administrator\AppData\Local\Temp\slidev-api\slidev-6LFYzjAmgc9I'
+{
+  "requestId": "01w5cn",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "EBUSY: resource busy or locked, rmdir 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-6LFYzjAmgc9I'",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:15:22 [info]: Request completed
+{
+  "requestId": "01w5cn",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "101077ms"
+}
+2025-08-17 00:15:27 [info]: Slidev stdout
+{
+  "output": "added 4 packages in 2m"
+}
+2025-08-17 00:15:27 [info]: Slidev stdout
+{
+  "output": "4 packages are looking for funding\n  run `npm fund` for details"
+}
+2025-08-17 00:16:21 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-17 00:16:21 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-17 00:16:21 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-17 00:16:21 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-17 00:18:21 [info]: Incoming request
+{
+  "requestId": "2859i",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:18:32 [info]: Request completed
+{
+  "requestId": "2859i",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10900ms"
+}
+2025-08-17 00:18:32 [info]: Incoming request
+{
+  "requestId": "74iflg",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:18:32 [info]: Creating new presentation
+{
+  "requestId": "74iflg",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:18:43 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:18:43 [info]: Creating project without dependencies
+{
+  "id": "slidev-2Fq07mJtpEXK",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-2Fq07mJtpEXK"
+}
+2025-08-17 00:18:43 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-2Fq07mJtpEXK",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-2Fq07mJtpEXK"
+}
+2025-08-17 00:18:43 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-17 00:18:43 [info]: Starting Slidev server
+{
+  "id": "slidev-2Fq07mJtpEXK",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-2Fq07mJtpEXK"
+}
+2025-08-17 00:18:45 [info]: Slidev stdout
+{
+  "output": "\u001b[?25l"
+}
+2025-08-17 00:18:45 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[36m?\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m»\u001b[39m \u001b[90m(Y/n)\u001b[39m"
+}
+2025-08-17 00:18:45 [info]: Auto-answering theme installation prompt with Y
+2025-08-17 00:18:45 [info]: Slidev stdout
+{
+  "output": "\u001b[2K\u001b[1G\u001b[2K\u001b[1G\u001b[32m√\u001b[39m \u001b[1mThe theme \"@slidev/theme-default\" was not found \u001b[4min your project\u001b[24m, do you want to install it now?\u001b[22m \u001b[90m...\u001b[39m yes"
+}
+2025-08-17 00:18:45 [info]: Auto-answering theme installation prompt with Y
+2025-08-17 00:18:45 [info]: Slidev stdout
+{
+  "output": "\u001b[?25h"
+}
+2025-08-17 00:21:21 [info]: Cleaning up expired presentations
+{
+  "expiredCount": 0
+}
+2025-08-17 00:21:43 [error]: Failed to start Slidev server, cleaning up
+{
+  "id": "slidev-2Fq07mJtpEXK",
+  "port": 3002,
+  "error": {}
+}
+2025-08-17 00:21:43 [info]: Port released
+{
+  "port": 3002,
+  "totalAllocated": 0
+}
+2025-08-17 00:21:43 [error]: Failed to cleanup project
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-2Fq07mJtpEXK",
+  "error": {
+    "errno": -4082,
+    "code": "EBUSY",
+    "syscall": "rmdir",
+    "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-2Fq07mJtpEXK"
+  }
+}
+2025-08-17 00:21:43 [error]: Failed to create presentation
+{
+  "error": {
+    "errno": -4082,
+    "code": "EBUSY",
+    "syscall": "rmdir",
+    "path": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-2Fq07mJtpEXK"
+  }
+}
+2025-08-17 00:21:43 [error]: Request error
+Error: EBUSY: resource busy or locked, rmdir 'C:\Users\Administrator\AppData\Local\Temp\slidev-api\slidev-2Fq07mJtpEXK'
+{
+  "requestId": "74iflg",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "EBUSY: resource busy or locked, rmdir 'C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-2Fq07mJtpEXK'",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:21:43 [info]: Request completed
+{
+  "requestId": "74iflg",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "191000ms"
+}
+2025-08-17 00:21:48 [info]: Slidev stdout
+{
+  "output": "added 4 packages in 3m"
+}
+2025-08-17 00:21:48 [info]: Slidev stdout
+{
+  "output": "4 packages are looking for funding\n  run `npm fund` for details"
+}
+2025-08-17 00:23:06 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-17 00:23:06 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-17 00:23:06 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-17 00:23:06 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-17 00:23:38 [info]: Incoming request
+{
+  "requestId": "cpjhj",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:23:49 [info]: Request completed
+{
+  "requestId": "cpjhj",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "10920ms"
+}
+2025-08-17 00:23:49 [info]: Incoming request
+{
+  "requestId": "6pwc7w",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:23:49 [info]: Creating new presentation
+{
+  "requestId": "6pwc7w",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:23:59 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:23:59 [info]: Creating project without dependencies
+{
+  "id": "slidev-DwjLcKQ7fLfd",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-DwjLcKQ7fLfd"
+}
+2025-08-17 00:23:59 [info]: Copying node_modules from template
+{
+  "templateNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template\\node_modules",
+  "projectNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-DwjLcKQ7fLfd\\node_modules"
+}
+2025-08-17 00:24:06 [info]: node_modules copied successfully
+2025-08-17 00:24:06 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-DwjLcKQ7fLfd",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-DwjLcKQ7fLfd"
+}
+2025-08-17 00:24:06 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-17 00:24:06 [info]: Starting Slidev server
+{
+  "id": "slidev-DwjLcKQ7fLfd",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-DwjLcKQ7fLfd"
+}
+2025-08-17 00:24:17 [info]: Slidev stdout
+{
+  "output": ""
+}
+2025-08-17 00:24:17 [info]: Slidev stdout
+{
+  "output": "\u001b[36m●\u001b[39m\u001b[34m■\u001b[39m\u001b[33m▲\u001b[39m\n\u001b[1m  Slidev\u001b[22m  \u001b[34mv52.1.0\u001b[39m \n\n\u001b[2m  theme       \u001b[22m\u001b[32m@slidev/theme-default\u001b[39m"
+}
+2025-08-17 00:24:17 [info]: Slidev stdout
+{
+  "output": "\u001b[2m  css engine  \u001b[22m\u001b[34munocss\u001b[39m\n\u001b[2m  entry       \u001b[22m\u001b[2mC:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-DwjLcKQ7fLfd\\\u001b[22mslides.md"
+}
+2025-08-17 00:24:17 [info]: Slidev stdout
+{
+  "output": "\u001b[2m  public slide show \u001b[22m  > \u001b[36mhttp://localhost:\u001b[1m3002\u001b[22m/\u001b[39m\n\u001b[2m  presenter mode \u001b[22m     > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/presenter/\u001b[39m\n\u001b[2m  slides overview \u001b[22m    > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/overview/\u001b[39m\n\u001b[2m  export slides\u001b[22m       > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/export/\u001b[39m\n\u001b[2m  remote control \u001b[22m     > \u001b[2mpass --remote to enable\u001b[22m\n\n\u001b[2m  shortcuts \u001b[22m          > \u001b[4mr\u001b[24m\u001b[2mestart | \u001b[22m\u001b[4mo\u001b[24m\u001b[2mpen | \u001b[22m\u001b[4me\u001b[24m\u001b[2mdit | \u001b[22m\u001b[4mq\u001b[24m\u001b[2muit\u001b[22m"
+}
+2025-08-17 00:27:06 [error]: Failed to start Slidev server, cleaning up
+{
+  "id": "slidev-DwjLcKQ7fLfd",
+  "port": 3002,
+  "error": {}
+}
+2025-08-17 00:27:06 [info]: Port released
+{
+  "port": 3002,
+  "totalAllocated": 0
+}
+2025-08-17 00:27:10 [info]: Project cleaned up
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-DwjLcKQ7fLfd"
+}
+2025-08-17 00:27:10 [error]: Failed to create presentation
+{
+  "error": {}
+}
+2025-08-17 00:27:10 [error]: Request error
+Error: Slidev startup timeout
+    at Timeout._onTimeout (file:///E:/slidev-sga/packages/api-server/dist/index.js:1159:13)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+{
+  "requestId": "6pwc7w",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "Slidev startup timeout",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:27:10 [info]: Request completed
+{
+  "requestId": "6pwc7w",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "201087ms"
+}
+2025-08-17 00:28:06 [info]: Cleaning up expired presentations
+{
+  "expiredCount": 0
+}
+2025-08-17 00:28:45 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-17 00:28:45 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-17 00:28:45 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-17 00:28:45 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-17 00:29:15 [info]: Incoming request
+{
+  "requestId": "6aeu1",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:29:26 [info]: Request completed
+{
+  "requestId": "6aeu1",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "11104ms"
+}
+2025-08-17 00:29:26 [info]: Incoming request
+{
+  "requestId": "g2x7vv",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:29:26 [info]: Creating new presentation
+{
+  "requestId": "g2x7vv",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:29:37 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:29:37 [info]: Creating project without dependencies
+{
+  "id": "slidev-weVrxBMWZzzj",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-weVrxBMWZzzj"
+}
+2025-08-17 00:29:37 [info]: Copying node_modules from template
+{
+  "templateNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template\\node_modules",
+  "projectNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-weVrxBMWZzzj\\node_modules"
+}
+2025-08-17 00:29:43 [info]: node_modules copied successfully
+2025-08-17 00:29:43 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-weVrxBMWZzzj",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-weVrxBMWZzzj"
+}
+2025-08-17 00:29:43 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-17 00:29:43 [info]: Starting Slidev server
+{
+  "id": "slidev-weVrxBMWZzzj",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-weVrxBMWZzzj"
+}
+2025-08-17 00:29:52 [info]: Slidev stdout
+{
+  "output": ""
+}
+2025-08-17 00:29:52 [info]: Slidev stdout
+{
+  "output": "\u001b[36m●\u001b[39m\u001b[34m■\u001b[39m\u001b[33m▲\u001b[39m\n\u001b[1m  Slidev\u001b[22m  \u001b[34mv52.1.0\u001b[39m \n\n\u001b[2m  theme       \u001b[22m\u001b[32m@slidev/theme-default\u001b[39m\n\u001b[2m  css engine  \u001b[22m\u001b[34munocss\u001b[39m"
+}
+2025-08-17 00:29:52 [info]: Slidev stdout
+{
+  "output": "\u001b[2m  entry       \u001b[22m\u001b[2mC:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-weVrxBMWZzzj\\\u001b[22mslides.md\n\n\u001b[2m  public slide show \u001b[22m  > \u001b[36mhttp://localhost:\u001b[1m3002\u001b[22m/\u001b[39m\n\u001b[2m  presenter mode \u001b[22m     > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/presenter/\u001b[39m\n\u001b[2m  slides overview \u001b[22m    > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/overview/\u001b[39m\n\u001b[2m  export slides\u001b[22m       > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/export/\u001b[39m\n\u001b[2m  remote control \u001b[22m     > \u001b[2mpass --remote to enable\u001b[22m\n\n\u001b[2m  shortcuts \u001b[22m          > \u001b[4mr\u001b[24m\u001b[2mestart | \u001b[22m\u001b[4mo\u001b[24m\u001b[2mpen | \u001b[22m\u001b[4me\u001b[24m\u001b[2mdit | \u001b[22m\u001b[4mq\u001b[24m\u001b[2muit\u001b[22m"
+}
+2025-08-17 00:29:52 [info]: Slidev server is ready
+{
+  "port": 3002
+}
+2025-08-17 00:29:52 [info]: Presentation created successfully
+{
+  "id": "slidev-weVrxBMWZzzj",
+  "port": 3002,
+  "expiresAt": "2025-08-16T17:29:43.544Z",
+  "totalInstances": 1
+}
+2025-08-17 00:29:52 [info]: Presentation created successfully
+{
+  "requestId": "g2x7vv",
+  "presentationId": "slidev-weVrxBMWZzzj",
+  "url": "http://localhost:3002"
+}
+2025-08-17 00:29:52 [info]: Request completed
+{
+  "requestId": "g2x7vv",
+  "method": "POST",
+  "url": "/presentations",
+  "statusCode": 201,
+  "duration": "26293ms"
+}
+2025-08-17 00:29:53 [info]: Incoming request
+{
+  "requestId": "zqkmg6",
+  "method": "GET",
+  "url": "/api/presentations",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:29:53 [info]: Listed presentations
+{
+  "requestId": "zqkmg6",
+  "total": 1,
+  "active": 1
+}
+2025-08-17 00:29:53 [info]: Request completed
+{
+  "requestId": "zqkmg6",
+  "method": "GET",
+  "url": "/presentations",
+  "statusCode": 200,
+  "duration": "4ms"
+}
+2025-08-17 00:33:49 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-17 00:33:49 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-17 00:33:49 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-17 00:33:50 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-17 00:34:19 [info]: Incoming request
+{
+  "requestId": "wd96mo",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:34:30 [info]: Request completed
+{
+  "requestId": "wd96mo",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "11492ms"
+}
+2025-08-17 00:34:30 [info]: Incoming request
+{
+  "requestId": "irk2tk",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:34:30 [info]: Creating new presentation
+{
+  "requestId": "irk2tk",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:34:41 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:34:41 [info]: Creating project without dependencies
+{
+  "id": "slidev-9DIAB0lOZk-U",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-9DIAB0lOZk-U"
+}
+2025-08-17 00:34:41 [info]: Copying node_modules from template
+{
+  "templateNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template\\node_modules",
+  "projectNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-9DIAB0lOZk-U\\node_modules"
+}
+2025-08-17 00:34:48 [info]: node_modules copied successfully
+2025-08-17 00:34:48 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-9DIAB0lOZk-U",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-9DIAB0lOZk-U"
+}
+2025-08-17 00:34:48 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-17 00:34:48 [info]: Starting Slidev server
+{
+  "id": "slidev-9DIAB0lOZk-U",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-9DIAB0lOZk-U"
+}
+2025-08-17 00:34:57 [info]: Slidev stdout
+{
+  "output": ""
+}
+2025-08-17 00:34:57 [info]: Slidev stdout
+{
+  "output": "\u001b[36m●\u001b[39m\u001b[34m■\u001b[39m\u001b[33m▲\u001b[39m\n\u001b[1m  Slidev\u001b[22m  \u001b[34mv52.1.0\u001b[39m \n\n\u001b[2m  theme       \u001b[22m\u001b[32m@slidev/theme-default\u001b[39m\n\u001b[2m  css engine  \u001b[22m\u001b[34munocss\u001b[39m\n\u001b[2m  entry       \u001b[22m\u001b[2mC:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-9DIAB0lOZk-U\\\u001b[22mslides.md"
+}
+2025-08-17 00:34:57 [info]: Slidev stdout
+{
+  "output": "\u001b[2m  public slide show \u001b[22m  > \u001b[36mhttp://localhost:\u001b[1m3002\u001b[22m/\u001b[39m\n\u001b[2m  presenter mode \u001b[22m     > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/presenter/\u001b[39m\n\u001b[2m  slides overview \u001b[22m    > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/overview/\u001b[39m\n\u001b[2m  export slides\u001b[22m       > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/export/\u001b[39m\n\u001b[2m  remote control \u001b[22m     > \u001b[2mpass --remote to enable\u001b[22m"
+}
+2025-08-17 00:34:57 [info]: Slidev stdout
+{
+  "output": "\u001b[2m  shortcuts \u001b[22m          > \u001b[4mr\u001b[24m\u001b[2mestart | \u001b[22m\u001b[4mo\u001b[24m\u001b[2mpen | \u001b[22m\u001b[4me\u001b[24m\u001b[2mdit | \u001b[22m\u001b[4mq\u001b[24m\u001b[2muit\u001b[22m"
+}
+2025-08-17 00:34:57 [info]: Slidev server is ready
+{
+  "port": 3002
+}
+2025-08-17 00:34:57 [info]: Presentation created successfully
+{
+  "id": "slidev-9DIAB0lOZk-U",
+  "port": 3002,
+  "expiresAt": "2025-08-16T17:34:48.447Z",
+  "totalInstances": 1
+}
+2025-08-17 00:34:57 [info]: Presentation created successfully
+{
+  "requestId": "irk2tk",
+  "presentationId": "slidev-9DIAB0lOZk-U",
+  "url": "http://localhost:3002"
+}
+2025-08-17 00:34:57 [info]: Request completed
+{
+  "requestId": "irk2tk",
+  "method": "POST",
+  "url": "/presentations",
+  "statusCode": 201,
+  "duration": "26351ms"
+}
+2025-08-17 00:34:57 [info]: Incoming request
+{
+  "requestId": "s7by",
+  "method": "GET",
+  "url": "/api/presentations",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:34:57 [info]: Listed presentations
+{
+  "requestId": "s7by",
+  "total": 1,
+  "active": 1
+}
+2025-08-17 00:34:57 [info]: Request completed
+{
+  "requestId": "s7by",
+  "method": "GET",
+  "url": "/presentations",
+  "statusCode": 200,
+  "duration": "4ms"
+}
+2025-08-17 00:38:49 [info]: Cleaning up expired presentations
+{
+  "expiredCount": 0
+}
+2025-08-17 00:39:51 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-17 00:39:51 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-17 00:39:51 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-17 00:39:51 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-17 00:40:22 [info]: Incoming request
+{
+  "requestId": "eac9o5",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:40:34 [info]: Request completed
+{
+  "requestId": "eac9o5",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "12183ms"
+}
+2025-08-17 00:40:34 [info]: Incoming request
+{
+  "requestId": "yx1syb",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:40:34 [info]: Creating new presentation
+{
+  "requestId": "yx1syb",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:40:46 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:40:46 [info]: Creating project without dependencies
+{
+  "id": "slidev-AFpDBKJgYp98",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-AFpDBKJgYp98"
+}
+2025-08-17 00:40:46 [info]: Copying node_modules from template
+{
+  "templateNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template\\node_modules",
+  "projectNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-AFpDBKJgYp98\\node_modules"
+}
+2025-08-17 00:40:53 [info]: node_modules copied successfully
+2025-08-17 00:40:53 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-AFpDBKJgYp98",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-AFpDBKJgYp98"
+}
+2025-08-17 00:40:53 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-17 00:40:53 [info]: Starting Slidev server
+{
+  "id": "slidev-AFpDBKJgYp98",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-AFpDBKJgYp98"
+}
+2025-08-17 00:41:01 [info]: Slidev stdout
+{
+  "output": ""
+}
+2025-08-17 00:41:01 [info]: Slidev stdout
+{
+  "output": "\u001b[36m●\u001b[39m\u001b[34m■\u001b[39m\u001b[33m▲\u001b[39m\n\u001b[1m  Slidev\u001b[22m  \u001b[34mv52.1.0\u001b[39m \n\n\u001b[2m  theme       \u001b[22m\u001b[32m@slidev/theme-default\u001b[39m\n\u001b[2m  css engine  \u001b[22m\u001b[34munocss\u001b[39m\n\u001b[2m  entry       \u001b[22m\u001b[2mC:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-AFpDBKJgYp98\\\u001b[22mslides.md"
+}
+2025-08-17 00:41:01 [info]: Slidev stdout
+{
+  "output": "\u001b[2m  public slide show \u001b[22m  > \u001b[36mhttp://localhost:\u001b[1m3002\u001b[22m/\u001b[39m\n\u001b[2m  presenter mode \u001b[22m     > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/presenter/\u001b[39m\n\u001b[2m  slides overview \u001b[22m    > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/overview/\u001b[39m\n\u001b[2m  export slides\u001b[22m       > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/export/\u001b[39m\n\u001b[2m  remote control \u001b[22m     > \u001b[2mpass --remote to enable\u001b[22m\n\n\u001b[2m  shortcuts \u001b[22m          > \u001b[4mr\u001b[24m\u001b[2mestart | \u001b[22m\u001b[4mo\u001b[24m\u001b[2mpen | \u001b[22m\u001b[4me\u001b[24m\u001b[2mdit | \u001b[22m\u001b[4mq\u001b[24m\u001b[2muit\u001b[22m"
+}
+2025-08-17 00:41:01 [info]: Slidev server is ready
+{
+  "port": 3002
+}
+2025-08-17 00:41:01 [info]: Presentation created successfully
+{
+  "id": "slidev-AFpDBKJgYp98",
+  "port": 3002,
+  "expiresAt": "2025-08-16T17:40:53.216Z",
+  "totalInstances": 1
+}
+2025-08-17 00:41:01 [info]: Presentation created successfully
+{
+  "requestId": "yx1syb",
+  "presentationId": "slidev-AFpDBKJgYp98",
+  "url": "http://localhost:3002"
+}
+2025-08-17 00:41:01 [info]: Request completed
+{
+  "requestId": "yx1syb",
+  "method": "POST",
+  "url": "/presentations",
+  "statusCode": 201,
+  "duration": "26936ms"
+}
+2025-08-17 00:41:01 [info]: Incoming request
+{
+  "requestId": "547zop",
+  "method": "GET",
+  "url": "/api/presentations",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:41:01 [info]: Listed presentations
+{
+  "requestId": "547zop",
+  "total": 1,
+  "active": 1
+}
+2025-08-17 00:41:01 [info]: Request completed
+{
+  "requestId": "547zop",
+  "method": "GET",
+  "url": "/presentations",
+  "statusCode": 200,
+  "duration": "4ms"
+}
+2025-08-17 00:44:35 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-17 00:44:35 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-17 00:44:35 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-17 00:44:35 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-17 00:45:09 [info]: Incoming request
+{
+  "requestId": "k2e0p6",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:45:22 [info]: Request completed
+{
+  "requestId": "k2e0p6",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "12648ms"
+}
+2025-08-17 00:45:22 [info]: Incoming request
+{
+  "requestId": "9rwj6e",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:45:22 [info]: Creating new presentation
+{
+  "requestId": "9rwj6e",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:45:34 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:45:34 [info]: Creating project without dependencies
+{
+  "id": "slidev-u6viWcENUDgk",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-u6viWcENUDgk"
+}
+2025-08-17 00:45:34 [info]: Copying node_modules from template
+{
+  "templateNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template\\node_modules",
+  "projectNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-u6viWcENUDgk\\node_modules"
+}
+2025-08-17 00:45:40 [info]: node_modules copied successfully
+2025-08-17 00:45:40 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-u6viWcENUDgk",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-u6viWcENUDgk"
+}
+2025-08-17 00:45:40 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-17 00:45:40 [info]: Starting Slidev server
+{
+  "id": "slidev-u6viWcENUDgk",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-u6viWcENUDgk"
+}
+2025-08-17 00:45:49 [info]: Slidev stdout
+{
+  "output": ""
+}
+2025-08-17 00:45:49 [info]: Slidev stdout
+{
+  "output": "\u001b[36m●\u001b[39m\u001b[34m■\u001b[39m\u001b[33m▲\u001b[39m\n\u001b[1m  Slidev\u001b[22m  \u001b[34mv52.1.0\u001b[39m \n\n\u001b[2m  theme       \u001b[22m\u001b[32m@slidev/theme-default\u001b[39m\n\u001b[2m  css engine  \u001b[22m\u001b[34munocss\u001b[39m\n\u001b[2m  entry       \u001b[22m\u001b[2mC:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-u6viWcENUDgk\\\u001b[22mslides.md"
+}
+2025-08-17 00:45:49 [info]: Slidev stdout
+{
+  "output": "\u001b[2m  public slide show \u001b[22m  > \u001b[36mhttp://localhost:\u001b[1m3002\u001b[22m/\u001b[39m\n\u001b[2m  presenter mode \u001b[22m     > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/presenter/\u001b[39m\n\u001b[2m  slides overview \u001b[22m    > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/overview/\u001b[39m\n\u001b[2m  export slides\u001b[22m       > \u001b[34mhttp://localhost:\u001b[1m3002\u001b[22m/export/\u001b[39m\n\u001b[2m  remote control \u001b[22m     > \u001b[2mpass --remote to enable\u001b[22m\n\n\u001b[2m  shortcuts \u001b[22m          > \u001b[4mr\u001b[24m\u001b[2mestart | \u001b[22m\u001b[4mo\u001b[24m\u001b[2mpen | \u001b[22m\u001b[4me\u001b[24m\u001b[2mdit | \u001b[22m\u001b[4mq\u001b[24m\u001b[2muit\u001b[22m"
+}
+2025-08-17 00:45:49 [info]: Slidev server is ready
+{
+  "port": 3002
+}
+2025-08-17 00:45:49 [info]: Presentation created successfully
+{
+  "id": "slidev-u6viWcENUDgk",
+  "port": 3002,
+  "expiresAt": "2025-08-16T17:45:40.771Z",
+  "totalInstances": 1
+}
+2025-08-17 00:45:49 [info]: Presentation created successfully
+{
+  "requestId": "9rwj6e",
+  "presentationId": "slidev-u6viWcENUDgk",
+  "url": "http://localhost:3002"
+}
+2025-08-17 00:45:49 [info]: Request completed
+{
+  "requestId": "9rwj6e",
+  "method": "POST",
+  "url": "/presentations",
+  "statusCode": 201,
+  "duration": "27643ms"
+}
+2025-08-17 00:45:49 [info]: Incoming request
+{
+  "requestId": "j6n4ru",
+  "method": "GET",
+  "url": "/api/presentations",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:45:49 [info]: Listed presentations
+{
+  "requestId": "j6n4ru",
+  "total": 1,
+  "active": 1
+}
+2025-08-17 00:45:49 [info]: Request completed
+{
+  "requestId": "j6n4ru",
+  "method": "GET",
+  "url": "/presentations",
+  "statusCode": 200,
+  "duration": "3ms"
+}
+2025-08-17 00:49:35 [info]: Cleaning up expired presentations
+{
+  "expiredCount": 0
+}
+2025-08-17 00:51:08 [info]: PortManager initialized
+{
+  "startPort": 3002,
+  "endPort": 3100
+}
+2025-08-17 00:51:08 [info]: Cleanup timer started
+{
+  "intervalMs": 300000
+}
+2025-08-17 00:51:09 [info]: Slidev API Server started
+{
+  "port": 3001,
+  "host": "0.0.0.0",
+  "tempDir": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api",
+  "maxConcurrentPresentations": 10,
+  "portRange": {
+    "start": 3002,
+    "end": 3100
+  },
+  "environment": "development"
+}
+2025-08-17 00:51:09 [info]: Valid template project already exists
+{
+  "templatePath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template"
+}
+2025-08-17 00:51:40 [info]: Incoming request
+{
+  "requestId": "d4js2t",
+  "method": "GET",
+  "url": "/api/health",
+  "userAgent": "node",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:51:53 [info]: Request completed
+{
+  "requestId": "d4js2t",
+  "method": "GET",
+  "url": "/health",
+  "statusCode": 200,
+  "duration": "12933ms"
+}
+2025-08-17 00:51:53 [info]: Incoming request
+{
+  "requestId": "murf1",
+  "method": "POST",
+  "url": "/api/presentations",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:51:53 [info]: Creating new presentation
+{
+  "requestId": "murf1",
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:52:05 [info]: Creating presentation
+{
+  "title": "AI 驱动的智能演示系统",
+  "theme": "default",
+  "contentLength": 2920
+}
+2025-08-17 00:52:05 [info]: Creating project without dependencies
+{
+  "id": "slidev-IF4BrgB3RvNy",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-IF4BrgB3RvNy"
+}
+2025-08-17 00:52:05 [info]: Copying node_modules from template
+{
+  "templateNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\_template\\node_modules",
+  "projectNodeModules": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-IF4BrgB3RvNy\\node_modules"
+}
+2025-08-17 00:52:12 [info]: node_modules copied successfully
+2025-08-17 00:52:12 [info]: Project created successfully (no deps)
+{
+  "id": "slidev-IF4BrgB3RvNy",
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-IF4BrgB3RvNy"
+}
+2025-08-17 00:52:12 [info]: Port allocated
+{
+  "port": 3002,
+  "totalAllocated": 1
+}
+2025-08-17 00:52:12 [info]: Starting Slidev server
+{
+  "id": "slidev-IF4BrgB3RvNy",
+  "port": 3002,
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-IF4BrgB3RvNy"
+}
+2025-08-17 00:52:15 [warn]: Slidev stderr
+{
+  "output": "无法识别的选项：define"
+}
+2025-08-17 00:52:15 [error]: Failed to start Slidev server, cleaning up
+{
+  "id": "slidev-IF4BrgB3RvNy",
+  "port": 3002,
+  "error": {}
+}
+2025-08-17 00:52:15 [info]: Port released
+{
+  "port": 3002,
+  "totalAllocated": 0
+}
+2025-08-17 00:52:17 [info]: Project cleaned up
+{
+  "projectPath": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\slidev-api\\slidev-IF4BrgB3RvNy"
+}
+2025-08-17 00:52:17 [error]: Failed to create presentation
+{
+  "error": {}
+}
+2025-08-17 00:52:17 [error]: Request error
+Error: Slidev process exited with code 1
+    at ChildProcess.<anonymous> (file:///E:/slidev-sga/packages/api-server/dist/index.js:1175:13)
+    at ChildProcess.emit (node:events:518:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+{
+  "requestId": "murf1",
+  "method": "POST",
+  "url": "/api/presentations",
+  "error": "Slidev process exited with code 1",
+  "userAgent": "External-AI-Agent/1.0",
+  "ip": "127.0.0.1"
+}
+2025-08-17 00:52:17 [info]: Request completed
+{
+  "requestId": "murf1",
+  "method": "POST",
+  "url": "/api/presentations",
+  "statusCode": 500,
+  "duration": "23726ms"
+}

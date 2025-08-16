@@ -1,0 +1,17 @@
+# 超简单的 Slidev Docker 镜像
+FROM node:18-alpine
+
+# 设置工作目录
+WORKDIR /app
+
+# 全局安装 Slidev CLI
+RUN npm install -g @slidev/cli@latest
+
+# 创建基本目录结构
+RUN mkdir -p components public styles
+
+# 暴露端口
+EXPOSE 3000
+
+# 启动命令：直接运行 Slidev
+CMD ["slidev", "--host", "0.0.0.0", "--port", "3000"]

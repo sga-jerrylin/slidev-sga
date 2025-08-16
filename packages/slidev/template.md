@@ -197,6 +197,61 @@ Check out [the guides](https://sli.dev/builtin/components.html) for more.
 </div>
 </div>
 
+---
+
+# Data Visualization with Vue Data UI
+
+<div grid="~ cols-2 gap-4">
+<div>
+
+Slidev now includes **Vue Data UI** - a powerful data visualization library with 50+ chart components.
+
+You can create charts using simple Markdown syntax:
+
+```markdown
+```xy
+{
+  "dataset": [
+    {"name": "Series 1", "values": [1, 2, 3, 4, 5]},
+    {"name": "Series 2", "values": [2, 4, 6, 8, 10]}
+  ]
+}
+```
+```
+
+Or use components directly:
+
+```html
+<VueUiDonut :dataset="pieData" :config="pieConfig" />
+```
+
+</div>
+<div>
+
+<VueUiSparkline
+  :dataset="[1, 5, 3, 8, 2, 7, 4, 6]"
+  :config="{
+    style: {
+      backgroundColor: 'transparent',
+      line: { color: '#42b883', strokeWidth: 3 }
+    }
+  }"
+/>
+
+<VueUiRating
+  :dataset="{ rating: 4.5, max: 5 }"
+  :config="{
+    style: {
+      backgroundColor: 'transparent',
+      rating: { color: '#ffd700' }
+    }
+  }"
+  style="margin-top: 20px;"
+/>
+
+</div>
+</div>
+
 <!--
 Presenter notes with **bold**, *italic*, and ~~strike~~ text.
 

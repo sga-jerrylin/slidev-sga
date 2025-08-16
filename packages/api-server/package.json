@@ -1,0 +1,51 @@
+{
+  "name": "@slidev/api-server",
+  "type": "module",
+  "version": "52.1.0",
+  "description": "API server for dynamic Slidev presentation generation",
+  "author": "Slidev Team",
+  "license": "MIT",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.1.0",
+    "@slidev/parser": "^52.1.0",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/types": "^52.1.0",
+    "chokidar": "^3.5.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "get-port-please": "^3.1.2",
+    "helmet": "^7.1.0",
+    "joi": "^17.11.0",
+    "nanoid": "^5.0.4",
+    "node-cron": "^3.0.3",
+    "rate-limiter-flexible": "^4.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.10.5",
+    "@types/node-cron": "^3.0.11",
+    "tsdown": "^0.2.13",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  }
+}
